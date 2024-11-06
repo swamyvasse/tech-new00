@@ -1,6 +1,7 @@
 var http = require('http');
 //this is various files
 //create a server object:
+//this is web site
 http.createServer(function (req, res) {
   res.write('** Welcome to GlobalLogic!!!! **'); //write a response to the client
   res.end(); //end the response
